@@ -54,11 +54,11 @@
       <a class="nav-item nav-link {{setActive('strands')}}" href="/strands">Strands</a>
       <a class="nav-item nav-link {{setActive('teachers')}}" href="/teachers">Teachers</a>
       <a class="nav-item nav-link {{setActive('sections')}}" href="/sections">Sections</a>
-      <form class="form-inline my-2 my-lg-0" align="right">
-      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Logout</button>
-    </form>
     </div>
   </div>
+  <form class="form-inline my-2 my-lg-0">
+      <a class="btn btn-outline-success my-2 my-sm-0" href="/logout">Logout</a>
+    </form>
 </nav>
     
 </style>

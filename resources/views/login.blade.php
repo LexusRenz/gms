@@ -78,7 +78,8 @@
 <body>
 <div class="text-center">
 	<!-- Button HTML (to Trigger Modal) -->
-	<a href="#myModal" class="trigger-btn" data-toggle="modal">LOGIN</a>
+	<h1>Welcome to GMS</h1>
+	<a href="#myModal" class=" btn btn-outline-success my-2 my-sm-0 trigger-btn" data-toggle="modal">LOGIN</a>
 </div>
 
 <!-- Modal HTML -->
@@ -89,23 +90,23 @@
 				@csrf
 				<div class="modal-header">				
 					<h4 class="modal-title">Login</h4>
-					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+					<button type="submit" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
 				</div>
 				<div class="modal-body">				
 					<div class="form-group">
-						<label>Username</label>
+						<label>Username:</label>
 						<input type="text" class="form-control" required="required" name = "email">
 					</div>
 					<div class="form-group">
 						<div class="clearfix">
-							<label>Password</label>
+							<label>Password:</label>
 						</div>
 						
 						<input type="password" class="form-control" required="required" name = "password">
 					</div>
 				</div>
 				<div class="modal-footer">
-					<label class="checkbox-inline pull-left"><input type="checkbox"> Remember me</label>
+					<label class="checkbox-inline pull-left"><input type="checkbox">Remember me</label>
 					<input type="submit" class="btn btn-primary pull-right" value="Login">
 				</div>
 			</form>

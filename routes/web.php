@@ -11,13 +11,12 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-Route::get('/logout', 'LoginController@login')->name('login');
+
+Route::get('/', 'LoginController@login')->name('login');
 Route::post('/login', 'LoginController@authenticate');
 Route::get('/logout', 'LoginController@logout');
 
-});
+// Route::middleware('auth')->group(function(){
 
 Route::get('/subjects', 'SubjectsController@index');
 Route::get('/subjects/add', 'SubjectsController@create');
@@ -39,4 +38,4 @@ Route::post('/sections/store', 'SectionsController@store');
 Route::get('/subjectstrands', 'SubjectStrandsController@index');
 Route::get('/subjectstrands/add', 'SubjectStrandsController@create');
 Route::post('/subjectstrands/store', 'SubjectStrandsController@store');
-
+ // });
