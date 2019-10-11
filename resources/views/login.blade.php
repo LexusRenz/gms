@@ -79,7 +79,8 @@
 <div class="text-center">
 	<!-- Button HTML (to Trigger Modal) -->
 	<h1>Welcome to GMS</h1>
-	<a href="#myModal" class=" btn btn-outline-success my-2 my-sm-0 trigger-btn" data-toggle="modal">LOGIN</a>
+	<img src="https://techcrunch.com/wp-content/uploads/2015/08/safe_image.gif" height="250"></br>
+	<a href="#myModal" class=" btn btn-outline-success my-2 my-sm-0 trigger-btn" data-toggle="modal">Login</a>
 </div>
 
 <!-- Modal HTML -->

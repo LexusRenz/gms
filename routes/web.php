@@ -38,4 +38,4 @@ Route::post('/sections/store', 'SectionsController@store');
 Route::get('/subjectstrands', 'SubjectStrandsController@index');
 Route::get('/subjectstrands/add', 'SubjectStrandsController@create');
 Route::post('/subjectstrands/store', 'SubjectStrandsController@store');
- // });
+// });
